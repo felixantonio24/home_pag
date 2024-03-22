@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
     gap: 25px;
-    background-color: rgb(24, 3, 71);
     margin-bottom:200px;
     margin-left: 202px;
     
@@ -31,6 +30,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
     font-size: 25px;
     color: white;
+ 
   
 }
 li,a{
@@ -90,7 +90,7 @@ height: 500px;
 
 section{
     background-color: rgb(255, 255, 255);
-    margin-bottom: 2055px;
+
 }
 
 
@@ -198,4 +198,70 @@ font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 650px;
     font-size: 19px;
+}
+
+
+/*hover */
+
+.tittle_nav1:hover{
+
+    transition: 2s;
+    font-size: 35px;
+    box-shadow: 2px 2px 2px white;
+    color: rgb(253, 0, 0);
+}
+
+li :hover{
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile screen*/
+/* Estilos para el menú de navegación móvil */
+.mobile-menu {
+    display: none; /* Por defecto, ocultamos el menú de navegación móvil */
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Mostramos el menú de navegación móvil en pantallas más pequeñas */
+    .mobile-menu {
+        display: block;
+    }
+
+    /* Opcional: Estilos adicionales para el menú de navegación móvil */
+    .mobile-menu ul {
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    .mobile-menu li {
+        margin-bottom: 10px;
+    }
+
+    .mobile-menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+    nav{
+        display: none;
+    }
 }
