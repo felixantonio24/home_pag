@@ -72,6 +72,13 @@ li,a{
     border-radius: 10px;
     width: 90px;
     cursor: pointer;
+    vertical-align: middle;
+    
+}
+
+.tittle_bton:hover{
+   font-size: 15px;
+   transition: 0.5s;
 }
 .h1_header_2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -374,7 +381,7 @@ font-size: 30px;
  }
   
  .h1_header_h1mobille{
-    font-size: 60px;
+    font-size: 48px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
@@ -382,7 +389,8 @@ font-size: 30px;
  .h1_header_h2mobile{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 65px;
+    font-size: 48px;
+    margin-bottom: 25px;
  }
 
  .tittle_h1_heade2{
@@ -394,7 +402,8 @@ font-size: 30px;
 .parr_header{
     color: #f5e7e7;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
+    font-size: 17px;
+
 }
 
 }
