@@ -169,16 +169,21 @@ section{
 
     display: flex;
     gap:15px px;
+    justify-content: center;
+    flex:1;
     
   
   
 }
 
+.containerbloq2{
+ flex: 1;
+}
 
 .img_sections{
     display: flex;
     flex: 1;
-    margin-left: 150px;
+    margin-left: 10%;
     margin-bottom: 20px;
     
 
@@ -238,7 +243,9 @@ font-size: 30px;
 }
 
 /* Media query para dispositivos móviles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) 
+
+{
     /* Mostramos el menú de navegación móvil en pantallas más pequeñas */
     .mobile-menu {
         display: block;
@@ -258,9 +265,6 @@ font-size: 30px;
         text-decoration: none;
         color: #333;
         font-weight: bold;
-    }
-  section{
-        display: none;
     }
 
     .tittle_mob{
@@ -308,7 +312,9 @@ font-size: 30px;
        margin: -39px 0;
     }
 
-
+header{
+    height:40rem;
+}
     .tittle_paywisedesktop , .tittle_bton{
         display: none;
     }
@@ -403,15 +409,17 @@ font-size: 30px;
     color: #f5e7e7;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
+    margin-bottom: 25px;
 
 }
 .container_principal_header{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 6px;
-    width: 340px;
+    margin-left: 30px;
+    width: 300px;
     height: 150px;
-    background-color: #ffffff;
+    background-color: #d6bfbf;
+    margin-top: 1px;
 
 }
 
@@ -420,12 +428,68 @@ font-size: 30px;
     background-color: red;
     border-radius: 10px;
     color: white;
-    width: 190px;
+    width: 190px; 
+}
+.container_section
+{
+    display: none;
+}
+section{
+    height: auto;
+    background-color: white;
+
+}
+
+.container_section{
+    display: flex;
+flex-direction: column;
+
 }
 
 
-
+.container_span_section{
+    display: flex;
+    margin-left: -8rem;
+    margin-top:  -50px;
+   flex-direction: column;
 }
 
+.h2_div_section{
+display: flex;
+margin-top: -25rem;
+}
 
+.h2_tittle_section, .h2_tittle_section_span{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: max content 10px;
+}
+.container_2sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
 
+.imgamujer-foto{
+    will-change: scroll-position;
+    margin-left: -18px;
+    width: 320px;
+    transition: 1px;
+}
+.bloq2_h2{
+    font-size: 25px;
+    width: 45vh;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.parr_bloq2, .parr_bloq3{
+    font-size: 20px;
+    width: 325px;
+    display: flex;
+    margin-left: 20px;
+    color: rgb(80, 81, 82);
+ 
+}
+
+}
