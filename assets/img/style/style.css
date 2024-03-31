@@ -482,7 +482,7 @@ margin-top: -25rem;
 }
 .bloq2_h2{
     margin-top: -38px;
-    font-size: 29px;
+    font-size: 22px;
     width: 45vh;
     margin-left: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -490,7 +490,7 @@ margin-top: -25rem;
 
 }
 .parr_bloq2, .parr_bloq3{
-    font-size: 25px;
+    font-size: 22px;
     width: 325px;
     display: flex;
     margin-left: 20px;
@@ -530,33 +530,38 @@ margin-top: -25rem;
     display: flex;
 }
 .bank_img{
-   width: 130px;
+   width: 85px;
    margin: 20px;
 }
 
 .h2_bank{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
+    font-size: 20px;
+    margin-left: 12px;
  
 }
 
 .parr_h3banck{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 23px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .mbil_billetera{
-    width: 130px;
+    width: 85px;
     margin: 20px;
 }
 .billeter_h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 14px;
+    margin-left: 20px;
 }
 .parr_h3billetera{
- font-size: 23px;
+ font-size: 20px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-left: 15px;
+ width: 340px;
 }
 
 
