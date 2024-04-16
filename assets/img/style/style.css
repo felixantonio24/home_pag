@@ -17,6 +17,9 @@ body{
     margin-left: 202px;
     
 }
+nav{
+    margin-top: 25px;
+}
 
 .containerli{
     display: flex;
@@ -52,6 +55,7 @@ li,a{
     margin-left: 220px;
     display: flex;
     flex-wrap: wrap;
+    gap: 33px;
 
 }
 
@@ -73,12 +77,20 @@ li,a{
     width: 90px;
     cursor: pointer;
     vertical-align: middle;
-    
+    margin-left: 40px;
+    transform-style: flat;
+    height: 30px;
+    transition: 0.8s  ease-in;
 }
-
+.container_mbil_scroll{
+    display: none;
+}
 .tittle_bton:hover{
    font-size: 15px;
-   transition: 0.5s;
+  
+   color: white;
+   background-color: black;
+
 }
 .h1_header_2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -88,6 +100,18 @@ li,a{
     margin-bottom: 15px;
     margin-top: -29px;
 
+}
+.buttonheader{
+    margin-left: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.8s ease-in;
+    border-radius: 40px;
+    margin-top: -50px;
+}
+.buttonheader:hover{
+    background-color: black;
+  color: white;
 }
 
 .parr_header{
@@ -265,6 +289,12 @@ font-size: 30px;
     .mobile-menu {
         display: block;
     }
+    .cerrar{
+        margin-right: 15px;  
+    margin-top:2px;
+border-radius: 50px;
+background-color: rgb(223, 0, 0);}
+    
 
     /* Opcional: Estilos adicionales para el menú de navegación móvil */
     .mobile-menu ul {
@@ -275,7 +305,9 @@ font-size: 30px;
     .mobile-menu li {
         margin-bottom: 10px;
     }
-
+.colums{
+    margin: 20p;
+}
     .mobile-menu a {
         text-decoration: none;
         color: #333;
@@ -301,7 +333,7 @@ font-size: 30px;
     }
 
     .menu_mobi{
-        margin-left: 99px;
+        margin-left: 155px;
         transition: transform 1s ease;
         
     }
@@ -635,7 +667,51 @@ margin-top: 39px;
 
 }
 .sections2{
-   background: rgba(24, 28, 83, 0.897);
+   background: rgba(47, 47, 110, 0.897);
+}
+.container_mbil_scroll {
+   flex-direction: column;
+    position: fixed;
+    top: 20px;
+    left:0;
+    right: 0;
+    background-color: rgba(39, 38, 38, 0.534); /* Fondo semitransparente */
+    z-index: 9999; /* Asegúrate de que el contenedor esté en la parte superior */
+    padding: 20px; /* Agrega algo de espacio interior */
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.container_mbil_scroll{
+    display: none;
+}
+.colums{
+    background-color: rgb(6, 11, 15);
+    height: 280px;
+
+  
+}
+.colorli1{
+    background-color: rgb(20, 12, 12);
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.colorli1{
+    background-color: black;
 }
 
 }
